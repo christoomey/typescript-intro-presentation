@@ -13,10 +13,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/styled-components": "^4.1.1",
     "typescript": "^3.1.6"
   },
   "dependencies": {
     "@types/react": "^16.6.3",
-    "react": "^16.6.3"
+    "graphql-tag": "^2.10.0",
+    "react": "^16.6.3",
+    "styled-components": "^4.1.1"
   }
 }
