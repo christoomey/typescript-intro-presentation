@@ -1,14 +1,14 @@
 type Action =
   | {
-      kind: "ADD";
+      kind: 'ADD';
       title: string;
     }
   | {
-      kind: "DELETE";
+      kind: 'DELETE';
       id: number;
     }
   | {
-      kind: "UPDATE";
+      kind: 'UPDATE';
       id: number;
       title: string;
     };

@@ -1,13 +1,15 @@
-import * as React from "react";
-import gql from "graphql-tag";
-import styled from "styled-components";
-import { Language } from "./gqlTypes";
-import { SFCWithQuery } from "./SFCWithQuery";
+import * as React from 'react';
+import gql from 'graphql-tag';
+import styled from 'styled-components';
+import {Language} from './gqlTypes';
+import {SFCWithQuery} from './SFCWithQuery';
 
-const Language: SFCWithQuery<{ language: Language }> = {
-  component: ({ language }) => (
+const Language: SFCWithQuery<{
+  language: Language;
+}> = {
+  component: ({language}) => (
     <span>
-      <Circle color={language.color || "gray"} />
+      <Circle color={language.color || 'gray'} />
       {language.name}
     </span>
   ),
@@ -17,11 +19,12 @@ const Language: SFCWithQuery<{ language: Language }> = {
       name
       color
     }
-  `
+  `,
 };
 
 const Circle = styled.span`
-  background-color: ${(props: CircleProps) => props.color};
+  background-color: ${(props: CircleProps) =>
+    props.color};
   border-radius: 50%;
   display: inline-block;
   height: 0.75em;

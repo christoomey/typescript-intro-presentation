@@ -1,10 +1,10 @@
-type Size = "small" | "medium" | "large";
+type Size = 'small' | 'medium' | 'large';
 
 const pixels = (size: Size) => {
   switch (size) {
-    case "small":
+    case 'small':
       return 10;
-    case "medium":
+    case 'medium':
       return 15;
   }
 };

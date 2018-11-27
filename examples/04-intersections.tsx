@@ -1,4 +1,4 @@
-type Use = "primary" | "secondary" | "danger";
+type Use = 'primary' | 'secondary' | 'danger';
 
 type ButtonProps = {
   use: Use;

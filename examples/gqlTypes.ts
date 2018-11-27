@@ -142,7 +142,9 @@ export interface UserSearch_search {
   /**
    * A list of edges.
    */
-  edges: (UserSearch_search_edges | null)[] | null;
+  edges:
+    | (UserSearch_search_edges | null)[]
+    | null;
 }
 
 export interface UserSearch {
@@ -219,7 +221,9 @@ export interface UserQuery_user_repositories {
   /**
    * A list of nodes.
    */
-  nodes: (UserQuery_user_repositories_nodes | null)[] | null;
+  nodes:
+    | (UserQuery_user_repositories_nodes | null)[]
+    | null;
 }
 
 export interface UserQuery_user_organizations_nodes {
@@ -238,7 +242,9 @@ export interface UserQuery_user_organizations {
   /**
    * A list of nodes.
    */
-  nodes: (UserQuery_user_organizations_nodes | null)[] | null;
+  nodes:
+    | (UserQuery_user_organizations_nodes | null)[]
+    | null;
 }
 
 export interface UserQuery_user {

@@ -2,7 +2,7 @@
 
 const add = (a, b) => a + b;
 
-add("hello", "world");
+add('hello', 'world');
 
 // const addMany = (...numbers: Array<number>): number => numbers.reduce(add);
 

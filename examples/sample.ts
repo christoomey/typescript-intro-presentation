@@ -1,4 +1,5 @@
-export const startServer = (port: number) => console.log("started");
+export const startServer = (port: number) =>
+  console.log('started');
 
 // interface Config {
 //   port: number;

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 interface Props {
   name: string;
@@ -9,7 +9,10 @@ interface State {
   count: number;
 }
 
-class Sample extends React.Component<Props, State> {
+class Sample extends React.Component<
+  Props,
+  State
+> {
   state = {};
 
   handleClick = () => {};
@@ -23,7 +26,9 @@ class Sample extends React.Component<Props, State> {
         <p>Hello {}</p>
         <p>
           You've clicked {} times.
-          <button onClick={this.handleClick}>+</button>
+          <button onClick={this.handleClick}>
+            +
+          </button>
         </p>
       </div>
     );

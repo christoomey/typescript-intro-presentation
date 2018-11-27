@@ -2,7 +2,7 @@ function identity(arg) {
   return arg;
 }
 
-identity("hello");
+identity('hello');
 
 // interface User {
 //   name: string;
